@@ -23,6 +23,7 @@
 				width: 100%;
 			}
 		</style>
+		<!-- Unicamente es una prueba de una modificación -->
 		<script>
 			document.addEventListener('DOMContentLoaded', function() {
             var map = L.map('map').setView([<?php echo $lat; ?>, <?php echo $lon; ?>], 13);
